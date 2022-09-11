@@ -84,9 +84,9 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/facebook.com\/",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "http:\/\/instagram.com",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -122,10 +122,11 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "{{ shop.brand.logo }}",
+          "logo": "shopify:\/\/shop_images\/logo.png",
           "logo_width": 90,
-          "logo_position": "middle-left",
+          "logo_position": "top-center",
           "menu": "main-menu",
+          "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": true,
           "margin_bottom": 0,
@@ -190,7 +191,10 @@
           "color_scheme": "background-1"
         }
       }
-    }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {
